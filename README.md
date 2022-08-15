@@ -1,23 +1,19 @@
-# Flipside Crypto R Shiny Template
+# Flipside Crypto Real Time Data Lag
 
-This is a minimalized R Shiny template app to keep Flipside Shiny apps on-brand. It includes the following:
+This is a small R Shiny app for tracking real time data lags in our [CHAIN].CORE.FACT_TRANSACTIONS across: Ethereum, Solana, Avalanche, Polygon, Flow, BSC, NEAR, Gnosis, Optimism, and Arbitrum.
 
--   shiny_template R Project
--   app directory with the template app
--   renv lock file (includes shroomDK)
--   relevant gitignores (e.g., ignoring api_key.txt for shroomDK)
+## Data Quality Transparency
 
-## App
+Transparency in data quality is critical for building trust with the community of analysts. Version 1 of this app focuses on **timeliness**. Additional metrics will be developed over time.
 
-The app folder serves as your template R Shiny app. It can be run as is to show filler text and a filler chart. The folder contains:
+6 Metrics of data quality include:
 
--   www/
-    -   fliplogo.jpg - the Flipside icon
-    -   rudderstack.js - requires shinyjs; used to track clicks to the flipside website
-    -   styles.css - template css including a few shiny specific outputs (e.g., .container-fluid) review and take care editing
--   global.R - default global file for miscellaneous functions and objects.
--   ui.R - default user interface file, includes both critical tags (e.g., header bar) and optional template code (e.g., chart div)
--   server.R - minimized server file w/ empty server function
+-   accuracy: Data reflects reality.
+-   completeness: Data is all there.
+-   consistency: Data aligns across different formats and locations.
+-   **timeliness**: Data is as recent as reasonable.
+-   validity: Data format is logical for its location.
+-   uniqueness: Data is repeated only where logical.
 
 ## renv
 
